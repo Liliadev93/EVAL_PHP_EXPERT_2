@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #4b2e83;
+}
+
+/* Un hotel dans la liste */
+.hotel {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+.hotel h2 {
+    margin-top: 0;
+}
+
+/* Formulaire */
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 400px;
+}
+
+.formulaire input,
+.formulaire select {
+    padding: 8px;
+    font-size: 1em;
+}
+
+.formulaire input[type="submit"] {
+    background: #4b2e83;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Messages */
+.erreur {
+    background: #fdecea;
+    border: 1px solid #c62828;
+    color: #b71c1c;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.succes {
+    background: #e6f4ea;
+    border: 1px solid #2e7d32;
+    color: #1b5e20;
+    padding: 12px;
+    border-radius: 4px;
+}
